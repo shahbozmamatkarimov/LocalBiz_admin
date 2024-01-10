@@ -30,11 +30,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  // runtimeConfig: {
-  //   public: {
-  //     apiBaseUrl: process.env.API_BASE_URL,
-  //     isDemo: process.env.IS_DEMO,
-  //   },
-  // },
+  runtimeConfig: {
+    public: {
+      BaseUrl: process.env.API_BASE_URL,
+    },
+  },
   modules: ["@pinia/nuxt", "@element-plus/nuxt", "nuxt-swiper"],
 });

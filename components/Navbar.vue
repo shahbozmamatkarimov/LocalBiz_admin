@@ -1,5 +1,5 @@
 <template>
-  <nav class="sticky top-0 flex items-center justify-between h-[100px] bg-white px-10">
+  <nav class="sticky top-0 flex items-center justify-between z-50 h-[100px] bg-white px-10">
     <h1 class="text-[#343C6A] text-3xl font-semibold">Businesses</h1>
     <div class="relative flex items-center">
       <img class="absolute left-5" src="@/assets/navbar/search.svg" alt="" />

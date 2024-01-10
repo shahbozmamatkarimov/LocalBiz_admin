@@ -1,7 +1,8 @@
+@import "./styles/element_plus.scss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 html, body {
   overflow: hidden;
   color: #232323;

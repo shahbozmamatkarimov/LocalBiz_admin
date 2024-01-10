@@ -4,6 +4,7 @@ import business from "@/assets/navbar/business.svg"
 import contact from "@/assets/navbar/contact.svg"
 import advertisement from "@/assets/navbar/advertisement.svg"
 import message from "@/assets/navbar/message.svg"
+import category from "@/assets/navbar/category.svg"
 
 import _dashboard from "@/assets/navbar/dashboard_active.svg"
 import _user from "@/assets/navbar/user_active.svg"
@@ -11,6 +12,7 @@ import _business from "@/assets/navbar/business_active.svg"
 import _contact from "@/assets/navbar/contact_active.svg"
 import _advertisement from "@/assets/navbar/advertisement_active.svg"
 import _message from "@/assets/navbar/message_active.svg"
+import _category from "@/assets/navbar/category_active.svg"
 
 export const sidebar = [
   {
@@ -53,6 +55,13 @@ export const sidebar = [
     _icon: _message,
     icon: message,
     title: "Messages",
-    path: "/Messages",
+    path: "/messages",
+  },
+  {
+    id: 7,
+    _icon: _category,
+    icon: category,
+    title: "Categories",
+    path: "/categories",
   },
 ];
